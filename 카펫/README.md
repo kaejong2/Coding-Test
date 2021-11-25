@@ -3,6 +3,7 @@ https://programmers.co.kr/learn/courses/30/lessons/42842
 ***
 #### 문제 설명
 Leo는 카펫을 사러 갔다가 아래 그림과 같이 중앙에는 노란색으로 칠해져 있고 테두리 1줄은 갈색으로 칠해져 있는 격자 모양 카펫을 봤습니다.
+<img width="524" alt="스크린샷 2021-11-25 오전 10 55 25" src="https://user-images.githubusercontent.com/62738682/143362939-ed72e133-5a7f-4cf3-8552-42403ef7a4ac.png">
 
 Leo는 집으로 돌아와서 아까 본 카펫의 노란색과 갈색으로 색칠된 격자의 개수는 기억했지만, 전체 카펫의 크기는 기억하지 못했습니다.
 
