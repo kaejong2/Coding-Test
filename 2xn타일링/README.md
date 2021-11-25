@@ -8,7 +8,8 @@ https://programmers.co.kr/learn/courses/30/lessons/12900
 - 타일을 세로로 배치 하는 경우
 예를들어서 n이 7인 직사각형은 다음과 같이 채울 수 있습니다.
 
-! 사진
+![Uploading 2ntiling.png…]()
+
 
 직사각형의 가로의 길이 n이 매개변수로 주어질 때, 이 직사각형을 채우는 방법의 수를 return 하는 solution 함수를 완성해주세요.
 
@@ -28,6 +29,8 @@ https://programmers.co.kr/learn/courses/30/lessons/12900
 #### 입출력 예 설명
 ##### 예제 #1
 다음과 같이 5가지 방법이 있다.
+![2ntiling_exam](https://user-images.githubusercontent.com/62738682/143334401-e910c5e8-ed03-4728-8b50-7bef4d849d4c.png)
+
 ##### 예제 #2
 없다 이건
 
