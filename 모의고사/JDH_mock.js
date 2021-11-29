@@ -42,5 +42,13 @@ const solution = answer => {
         result[2] = c == answer[i] ? ++result[2] : result[2];
     }
 
-    
+    let max = 0;
+    return result.map((v, i, a) => {
+        if ( v > max ) {
+            max = v;
+            return i + 1;
+        } else if ( v == max ) {
+            return i + 1;
+        }
+    }).filter(f => f != null);
 }
