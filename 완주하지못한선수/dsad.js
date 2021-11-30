@@ -9,7 +9,7 @@ rl.on('line', line => {
     rl.close();
 }).on('close', () => process.exit());
 
-const solution = (participant, completion) {
+const solution = (participant, completion) => {
     var answer = '';
 
     answer = Array.from(participant).filter(v => {
