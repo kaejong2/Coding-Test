@@ -10,20 +10,21 @@ rl.on('line', line => {
 }).on('close', () => process.exit());
 
 const solution = s => {
-    if ( !/((\w)\2{1,})/g.test(s) ) {
-        console.log(-1); 
-        return 0;
-    }
-
-    let result = Array.from(s).reduce((p, c, i, a) => {
-        console.log(p, c);
-        if ( p === c ) {
-            return ''
+    if ( s.length % 2 != 0 ) return 0;
+    
+    let answer = [];
+    s = [...s];
+    
+    let i = 0;
+    for (; i < s.length; i++) {
+        if ( ( s.length / 2 < i ) && ( s.length / 2 < answer.length ) ) {
+            break;
+        } else if ( answer[answer.length - 1] == s[i] ) {
+            answer.pop()
+        } else {
+            answer.push(s[i]);
         }
-        return p + c;
-    });
-
-    console.log(`result : ${result} `);
-
-    return 1;
+    }
+    
+    return answer.length == 0 ? 1 : 0;
 }
