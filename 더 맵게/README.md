@@ -1,4 +1,4 @@
-### 숫자 문자열과 영단어
+### 더 맵게
 https://programmers.co.kr/learn/courses/30/lessons/42626
 ***
 #### 문제 설명
