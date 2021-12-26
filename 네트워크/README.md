@@ -14,7 +14,6 @@ https://programmers.co.kr/learn/courses/30/lessons/43162
 - computer[i][i]는 항상 1입니다.
 
 #### 입출력 예
-
 | n               | computers                   | return    |
 | :-------------- | :--------                   | :-------- |
 | 3               | [[1,1,0], [1,1,0], [0,0,1]] | 2         | 
